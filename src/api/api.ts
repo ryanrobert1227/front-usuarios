@@ -1,6 +1,6 @@
 import axios from "axios";
 
 export default axios.create({
-  baseURL: "http://localhost:8000/contas",
+  baseURL: "https://tame-blue-narwhal-yoke.cyclic.app/contas",
   timeout: 10000,
 });
